@@ -12,7 +12,7 @@ or
 - python2 if default python command is python3
 A file named vsf will be created on the real filesystem.
 
-Commands, x and y are parameters 
+Commands (x and y are parameters)
 - quit: quit the emulator
 - ls: list directories and files
 - check: check bitmap
