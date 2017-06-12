@@ -9,8 +9,11 @@ Run
 - python filesystem.py
 
 or
-- python2 if default python command is python3
-A file named vsf will be created on the real filesystem.
+- python2 filesystem.py
+
+if default python command is python3
+
+A file named vsf will be created on the real filesystem for storing virtual disk information.
 
 Commands (x and y are parameters)
 - quit: quit the emulator
