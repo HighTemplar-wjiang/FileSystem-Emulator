@@ -27,4 +27,4 @@ Commands (x and y are parameters)
 - read: read opened file
 - rm x: remove file x
 - rmdir x: remove directory x, files and sub-folders will also be removed
-- cp x y: cp x as y
+- cp x y: copy x as y
