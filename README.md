@@ -28,3 +28,5 @@ Commands (x and y are parameters)
 - rm x: remove file x
 - rmdir x: remove directory x, files and sub-folders will also be removed
 - cp x y: copy x as y
+
+<img src="https://github.com/HighTemplar-wjiang/FileSystem-Emulator/blob/master/demo.png">
