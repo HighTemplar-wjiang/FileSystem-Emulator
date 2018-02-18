@@ -422,13 +422,18 @@ class FileSystem():
 
 def cmd():
     fs = FileSystem()
-    inode    = fs.curInode
+    inode = fs.curInode
     inodeNum = 0
+    helpInfo = "read, close, ls, check, quit, open, cd, mkdir, write, rm, rmdir, cp"
     while True:
         c = raw_input(fs.curDir + " >> ")
         params = c.strip().split()
 
         if len(params) == 1:
+            if params[0] == 'help':
+                print(helpInfo)
+                continue
+
             if params[0] == 'read':
                 print("".join(fs.read(inodeNum)))
                 continue
@@ -482,6 +487,7 @@ def cmd():
 
 
         print("Error: invalid command")
+        print(helpInfo)
 
 
 
